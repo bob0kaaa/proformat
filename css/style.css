@@ -718,10 +718,6 @@ body._touch .menu__list > li._active .menu__arrow {
 		margin-top: 20px;
 	}
 
-	.item__sponsor:nth-child(3) {
-		margin-left: 0;
-	}
-
 	.items_contacts {
 		display: block;
 	}
@@ -899,9 +895,11 @@ body._touch .menu__list > li._active .menu__arrow {
 	}
 	.item__organizer:nth-child(n + 2) {
 		margin-left: 0px;
+		margin-right: 0px;
 	}
 	.item__sponsor:nth-child(n + 2) {
 		margin-left: 0px;
+		margin-right: 0px;
 	}
 }
 @media (max-width: 429px) {
