@@ -630,6 +630,7 @@ body._touch .menu__list > li._active .menu__arrow {
 	.block__img-date {
 		right: 47%;
 		height: 35px;
+		width: 935px;
 	}
 
 	.block__banner {
@@ -685,7 +686,7 @@ body._touch .menu__list > li._active .menu__arrow {
 
 @media (max-width: 916px) {
 	.block__img-date {
-		right: 78%;
+		right: 69%;
 		height: 35px;
 		top: 28px;
 	}
@@ -845,7 +846,7 @@ body._touch .menu__list > li._active .menu__arrow {
 	}
 
 	.block__img-date {
-		right: 128%;
+		right: 118%;
 		height: 35px;
 	}
 
@@ -904,13 +905,15 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 @media (max-width: 429px) {
 	.block__img-date {
-		right: 166%;
+		right: 146%;
 		height: 35px;
+		width: 885px;
 	}
 }
-@media (max-width: 325px) {
+@media (max-width: 359px) {
 	.block__img-date {
-		right: 211%;
+		right: 171%;
 		height: 30px;
+		width: 815px;
 	}
 }
