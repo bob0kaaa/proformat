@@ -553,7 +553,7 @@ body._lock {
 }
 
 .item__contact-img1 {
-	background-image: url(/img/novikova.jpg);
+	background-image: url(../img/novikova.jpg);
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
@@ -563,7 +563,7 @@ body._lock {
 	background-repeat: no-repeat;
 }
 .item__contact-img2 {
-	background-image: url(/img/kulichkova.jpg);
+	background-image: url(../img/kulichkova.jpg);
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
@@ -573,7 +573,7 @@ body._lock {
 	background-repeat: no-repeat;
 }
 .item__contact-img3 {
-	background-image: url(/img/vashkis.jpg);
+	background-image: url(../img/vashkis.jpg);
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
@@ -583,7 +583,7 @@ body._lock {
 	background-repeat: no-repeat;
 }
 .item__contact-img4 {
-	background-image: url(/img/chernoskulova.jpg);
+	background-image: url(../img/chernoskulova.jpg);
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
