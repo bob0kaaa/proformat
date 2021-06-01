@@ -553,32 +553,44 @@ body._lock {
 }
 
 .item__contact-img1 {
-	background-image: url(https://imgholder.ru/150x150/8493a8/adb9ca&text=Тут+будет+фото&font=kelson&fz=10);
+	background-image: url(/img/novikova.jpg);
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
 	border-radius: 50%;
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .item__contact-img2 {
-	background-image: url(https://imgholder.ru/150x150/8493a8/adb9ca&text=Тут+будет+фото&font=kelson&fz=10);
+	background-image: url(/img/kulichkova.jpg);
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
 	border-radius: 50%;
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .item__contact-img3 {
-	background-image: url(https://imgholder.ru/150x150/8493a8/adb9ca&text=Тут+будет+фото&font=kelson&fz=10);
+	background-image: url(/img/vashkis.jpg);
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
 	border-radius: 50%;
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .item__contact-img4 {
-	background-image: url(https://imgholder.ru/150x150/8493a8/adb9ca&text=Тут+будет+фото&font=kelson&fz=10);
+	background-image: url(/img/chernoskulova.jpg);
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
 	border-radius: 50%;
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .item__contact-content {
 }
