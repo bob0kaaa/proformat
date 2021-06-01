@@ -399,9 +399,37 @@ body._lock {
 .item__content {
 }
 
-.img-organizers {
+.img-organizers1 {
 	width: 260px;
 	height: 80px;
+	background-image: url(../img/organizers/logo_tuugmk.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+.img-organizers2 {
+	width: 260px;
+	height: 80px;
+	background-image: url(../img/organizers/logo_ugmpk.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+.img-organizers3 {
+	width: 260px;
+	height: 80px;
+	background-image: url(../img/organizers/logo_mmk.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+.img-organizers4 {
+	width: 260px;
+	height: 80px;
+	background-image: url(../img/organizers/logo_scvc.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
 }
 
 .title__content {
