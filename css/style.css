@@ -362,12 +362,17 @@ body._lock {
 .block__programm {
 	width: 100%;
 }
+
 .block__programm-seven {
 	width: 100%;
 }
 
 .block__programm-eight {
 	display: none;
+}
+
+.title__programm-two-day {
+	text-align: center;
 }
 
 .programm__schedule {
@@ -382,12 +387,23 @@ body._lock {
 	margin-right: 80px;
 	padding-left: 20px;
 }
+
+.item__date2 {
+	margin-right: 150px;
+	padding-left: 20px;
+}
 .date__span {
 	font-weight: 600;
 	font-size: 20px;
 }
 .item__content {
 }
+
+.img-organizers {
+	width: 260px;
+	height: 80px;
+}
+
 .title__content {
 	font-weight: 600;
 	font-size: 20px;
@@ -699,7 +715,7 @@ body._touch .menu__list > li._active .menu__arrow {
 	}
 
 	.item__organizer:nth-child(-n + 4) {
-		margin-top: 20px;
+		margin-top: 40px;
 	}
 
 	.items__sponsors {
@@ -933,6 +949,10 @@ body._touch .menu__list > li._active .menu__arrow {
 	.item__date {
 		padding: 0px;
 		margin: 0px 0px 20px 0px;
+	}
+
+	item__date2 {
+		margin-right: 150px;
 	}
 
 	.title__content {
