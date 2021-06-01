@@ -41,6 +41,35 @@ h6 {
 	font-weight: inherit;
 	font-size: inherit;
 }
+
+h2::before {
+	content: "";
+	display: inline-block;
+	width: 250px;
+	height: 3px;
+	background-color: #ffd600;
+	display: block;
+	margin: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+h2::after {
+	content: "";
+	display: inline-block;
+	width: 250px;
+	height: 3px;
+	background-color: #ffd600;
+	display: block;
+	margin: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
 html,
 body {
 	height: 100%;
@@ -227,9 +256,9 @@ body._lock {
 .block__img-date {
 	width: 1035px;
 	top: 48px;
-	right: 27%;
+	right: 23%;
 	height: 49px;
-	background-image: url(../svg/date.svg);
+	background-image: url(../svg/date2.svg);
 	z-index: 9;
 	position: relative;
 	background-position: center center;
@@ -274,11 +303,14 @@ body._lock {
 
 .block__photo {
 	max-width: 140px;
-	background-image: url(https://imgholder.ru/80x80/8493a8/adb9ca&text=Тут+будет+фото&font=kelson&fz=10);
+	background-image: url(../img/_DSC027.jpg);
 	height: 80px;
 	width: 80px;
 	border-radius: 50%;
 	display: flex;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .block_signature {
@@ -373,7 +405,19 @@ body._lock {
 .title__content {
 	font-weight: 600;
 	font-size: 20px;
+	margin-bottom: 20px;
 }
+
+.item-programm1 {
+	list-style: outside;
+	line-height: 1.5;
+}
+
+.item-programm2 {
+	list-style: decimal;
+	line-height: 1.5;
+}
+
 .content__schedule {
 	margin-top: 20px;
 }
@@ -638,6 +682,10 @@ body._touch .menu__list > li._active .menu__arrow {
 	.p-banner__title {
 		font-size: 30px;
 	}
+
+	.banner__title {
+		padding: 0 20px;
+	}
 }
 
 @media (max-width: 1220px) {
@@ -659,6 +707,12 @@ body._touch .menu__list > li._active .menu__arrow {
 	.items__sponsors {
 		flex-wrap: wrap;
 	}
+
+	.block__photo {
+		width: 100px;
+		height: 100px;
+	}
+
 	.block__sponsors {
 		width: 60%;
 		margin: 0 auto;
@@ -686,8 +740,8 @@ body._touch .menu__list > li._active .menu__arrow {
 
 @media (max-width: 916px) {
 	.block__img-date {
-		right: 69%;
-		height: 35px;
+		right: 59%;
+		height: 32px;
 		top: 28px;
 	}
 	.block__banner {
@@ -829,7 +883,7 @@ body._touch .menu__list > li._active .menu__arrow {
 @media (max-width: 636px) {
 	.block__img-date {
 		right: 88%;
-		height: 35px;
+		height: 32px;
 	}
 }
 @media (max-width: 554px) {
@@ -841,13 +895,14 @@ body._touch .menu__list > li._active .menu__arrow {
 		font-size: 30px;
 		margin: 0px 0px 60px 0px;
 	}
+
 	.banner__title-content {
 		font-size: 18px;
 	}
 
 	.block__img-date {
-		right: 118%;
-		height: 35px;
+		right: 108%;
+		height: 32px;
 	}
 
 	.p-banner__title {
@@ -905,15 +960,24 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 @media (max-width: 429px) {
 	.block__img-date {
-		right: 146%;
-		height: 35px;
-		width: 885px;
+		right: 116%;
+		height: 30px;
+		width: 755px;
 	}
 }
 @media (max-width: 359px) {
 	.block__img-date {
-		right: 171%;
-		height: 30px;
-		width: 815px;
+		right: 131%;
+		height: 20px;
+		width: 730px;
+	}
+	.banner__title {
+		top: 140px;
+	}
+	.banner__title-content {
+		font-size: 15px;
+	}
+	.p-banner__title {
+		font-size: 22px;
 	}
 }
