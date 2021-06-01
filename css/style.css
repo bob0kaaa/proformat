@@ -42,20 +42,6 @@ h6 {
 	font-size: inherit;
 }
 
-h2::before {
-	content: "";
-	display: inline-block;
-	width: 250px;
-	height: 3px;
-	background-color: #ffd600;
-	display: block;
-	margin: auto;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-top: 14px;
-	margin-bottom: 14px;
-}
-
 h2::after {
 	content: "";
 	display: inline-block;
