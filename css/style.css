@@ -418,7 +418,7 @@ body._lock {
 .img-organizers3 {
 	width: 260px;
 	height: 80px;
-	background-image: url(../img/organizers/logo_mmk.png);
+	background-image: url(../img/organizers/personal_logo.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
@@ -426,7 +426,7 @@ body._lock {
 .img-organizers4 {
 	width: 260px;
 	height: 80px;
-	background-image: url(../img/organizers/logo_scvc.png);
+	background-image: url(../img/organizers/logo_scvc.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
