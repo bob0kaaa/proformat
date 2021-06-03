@@ -85,7 +85,3 @@ if (menuLinks.length > 0) {
 
 
 // Сктырие блоков
-
-let timeLet = '';
-body = document.querySelector('body');
-button = document.querySelector('button');
