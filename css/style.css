@@ -417,7 +417,7 @@ body._lock {
 .img-organizers1 {
 	width: 260px;
 	height: 80px;
-	background-image: url(../img/organizers/logo_tuugmk.png);
+	background-image: url(../img/organizers/logo_ugmpk.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
@@ -425,7 +425,7 @@ body._lock {
 .img-organizers2 {
 	width: 260px;
 	height: 80px;
-	background-image: url(../img/organizers/logo_ugmpk.png);
+	background-image: url(../img/organizers/logo_mmk1.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
@@ -433,12 +433,20 @@ body._lock {
 .img-organizers3 {
 	width: 260px;
 	height: 80px;
-	background-image: url(../img/organizers/personal_logo.svg);
+	background-image: url(../img/organizers/logo_tuugmk.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
 }
 .img-organizers4 {
+	width: 260px;
+	height: 80px;
+	background-image: url(../img/organizers/personal_logo.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+.img-organizers5 {
 	width: 260px;
 	height: 80px;
 	background-image: url(../img/organizers/logo_scvc.svg);
@@ -703,6 +711,7 @@ body._lock {
 	min-width: 134px;
 	max-width: 134px;
 	text-align: center;
+	font-size: 16px;
 }
 
 .block__cost {
