@@ -243,7 +243,7 @@ textarea.form__input {
 	letter-spacing: 2px;
 	font-weight: 700;
 	cursor: pointer;
-	border-radius: 20px;
+	border-radius: 10px;
 	box-shadow: 0 5px 0 #f3ff48;
 	transition: background-color 0.5s ease 0s;
 	position: relative;
