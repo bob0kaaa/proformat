@@ -118,15 +118,15 @@
 									специалистов базовых предприятий промышленности, который состоится в г. Верхняя Пышма.
 								</p>
 								<p>
-									1 Выработка отраслевой позиции по применению Национальной системы квалификаций. Противоречия и
+									1. Выработка отраслевой позиции по применению Национальной системы квалификаций. Противоречия и
 									ограничения применения "сквозных" квалификаций, ликвидация монополии "сквозных" СПК по видам
 									профессиональной деятельности.
 								</p>
 								<p>
-									2 Вопросы всех уровней образования для металлургических предприятий.
+									2. Вопросы всех уровней образования для металлургических предприятий.
 								</p>
 								<p>
-									3 Профориентация в горно-металлургическом комплексе на отраслевом и федеральном уровнях. Молодежная
+									3. Профориентация в горно-металлургическом комплексе на отраслевом и федеральном уровнях. Молодежная
 									политика промышленных компаний.
 								</p>
 								<p>
@@ -343,24 +343,50 @@
 							<form action="#" id="form" class="form__body">
 								<div class="form__item">
 									<label for="formName" class="form__label">Фамилия Имя*:</label>
-									<input id="formName" type="text" name="name" class="form__input _req">
+									<input id="formName" type="text" name="Фамилия Имя" class="form__input _req">
 								</div>
 								<div class="form__item">
 									<label for="formName" class="form__label">Компания*:</label>
-									<input id="formName" type="text" name="company" class="form__input _req">
+									<input id="formName" type="text" name="Компания" class="form__input _req">
 								</div>
 								<div class="form__item">
 									<label for="formEmail" class="form__label">E-mail*:</label>
-									<input id="formEmail" type="text" name="email" class="form__input _req _email">
+									<input id="formEmail" type="text" name="E-mail" class="form__input _req _email">
 								</div>
 								<div class="form__item">
 									<label for="formName" class="form__label">Телефон*:</label>
-									<input id="formName" type="tel" name="tel" class="form__input _req">
+									<input id="formName" type="tel" name="Телефон" class="form__input _req">
+								</div>
+								<div class="form__item">
+									<div class="form__label">Что тут написать?</div>
+									<div class="options">
+										<div class="options__item">
+											<input id="formRightHanded" checked type="radio" value="Участник" name="Участвует как:"
+												class="options__input"
+												onclick="document.getElementById('form__item-package').style.display='none';">
+											<label for="formRightHanded" class="options__label"><span>Участник</span></label>
+										</div>
+										<div class="options__item">
+											<input id="formLeftHanded" type="radio" value="Спонсор" name="Участвует как:"
+												class="options__input"
+												onclick="document.getElementById('form__item-package').style.display='block';">
+											<label for="formLeftHanded" class="options__label"><span>Спонсор</span></label>
+										</div>
+									</div>
+								</div>
+								<div class="form__item" id="form__item-package">
+									<div class="form__label">Категория пакета:</div>
+									<select name="Пакета:" class="form__select">
+										<option value="Золотой" selected>Золотой</option>
+										<option value="Серебряный">Серебряный</option>
+										<option value="Бронзовый"></option>
+									</select>
 								</div>
 								<div class="form__item">
 									<label for="formMessage" class="form__label">Комментарий:</label>
-									<textarea name="message" id="formMessage" class="form__input"></textarea>
+									<textarea name="Комментарий" id="formMessage" class="form__input"></textarea>
 								</div>
+
 								<div class="form__item-none">
 									<div class="form__label">Прикрепить фото</div>
 									<div class="file">
@@ -407,11 +433,7 @@
 							<div class="block__cost">
 								<span class="cost__sponsor">500 000₽</span>
 							</div>
-							<span>
-								<div data-goto=".page__section_2" class="button__reg">
-									<span>Регистрация</span>
-								</div>
-							</span>
+							<a data-goto=".page__section_2" href="#" class="menu__link button__reg">Регистрация</a>
 						</div>
 						<div class="block__sponsor block__sponsor-silver">
 							<h3 class="title__sponsor-silver">«Серебряный спонсор»</h3>
@@ -430,11 +452,7 @@
 							<div class="block__cost">
 								<span class="cost__sponsor">300 000₽</span>
 							</div>
-							<span>
-								<div data-goto=".page__section_2" class="button__reg">
-									<span>Регистрация</span>
-								</div>
-							</span>
+							<a data-goto=".page__section_2" href="#" class="menu__link button__reg">Регистрация</a>
 						</div>
 						<div class="block__sponsor block__sponsor-bronze">
 							<h3 class="title__sponsor-bronze">«Бронзовый спонсор»</h3>
@@ -453,11 +471,7 @@
 							<div class="block__cost">
 								<span class="cost__sponsor">150 000₽</span>
 							</div>
-							<span>
-								<div data-goto=".page__section_2" class="button__reg">
-									<span>Регистрация</span>
-								</div>
-							</span>
+							<a data-goto=".page__section_2" href="#" class="menu__link button__reg">Регистрация</a>
 						</div>
 					</div>
 
