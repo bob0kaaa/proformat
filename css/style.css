@@ -63,7 +63,7 @@ body {
 	font-size: 16px;
 	background-color: #fff;
 	color: #000;
-	font-family: Arial, sans-serif;
+	font-family: Calibri, sans-serif;
 }
 body._lock {
 	overflow: hidden;
@@ -241,9 +241,9 @@ body._lock {
 .block__img-date {
 	width: 55%;
 	top: 48px;
-	right: 23%;
-	height: 49px;
-	background-image: url(../svg/date2.svg);
+	right: 16%;
+	height: 79px;
+	background-image: url(../svg/date.svg);
 	z-index: 9;
 	position: relative;
 	background-position: center center;
@@ -286,9 +286,21 @@ body._lock {
 	height: 150px;
 }
 
-.block__photo {
+.block__okunkov {
 	max-width: 140px;
-	background-image: url(../img/director__tu-ugmk.jpg);
+	background-image: url(https://imgholder.ru/80x80/8493a8/adb9ca&text=ФОТО&font=kelson);
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	display: flex;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.block__malyshev {
+	max-width: 140px;
+	background-image: url(../img/D.S.-Malyshev.jpg);
 	height: 80px;
 	width: 80px;
 	border-radius: 50%;
@@ -317,6 +329,10 @@ body._lock {
 .photo__gallery {
 	margin-top: 50px;
 	width: 100%;
+}
+
+.flex__block-width {
+	width: 50%;
 }
 .items__photo {
 	box-sizing: border-box;
@@ -394,7 +410,6 @@ body._lock {
 }
 .item__content {
 	min-width: 260px;
-	max-width: 260px;
 }
 
 .img-organizers1 {
@@ -448,6 +463,90 @@ body._lock {
 
 .content__schedule {
 	margin-top: 20px;
+}
+
+.block__participation-fee {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.block__title-participation {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 20px;
+	font-size: 35px;
+	margin-top: 90px;
+	color: #ffffff;
+}
+
+.block__title-participation::after {
+	content: "";
+	display: inline-block;
+	width: 250px;
+	height: 3px;
+	background-color: #ffd600;
+	display: block;
+	margin: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+.block__participation {
+	border: 1px solid #ffd600;
+	border-radius: 10px;
+	min-width: 300px;
+	box-shadow: 0 0 20px rgb(255, 204, 0);
+	height: 400px;
+
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 0;
+}
+
+.block__participation::after {
+	content: "";
+	background-color: #000000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.5;
+	border-radius: 10px;
+	z-index: -1;
+}
+
+.block__full-time-participation {
+	background-image: url(../img/28NjP6V3U5I.JPG);
+}
+
+.block__participation-content {
+	text-align: center;
+}
+
+.span__block {
+	display: block;
+	padding: 0 20px 20px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.cost {
+	font-size: 30px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.block__online-participation {
+	background-image: url(../img/IMG_1798.jpg);
 }
 
 .menu__link {
@@ -714,8 +813,9 @@ body._touch .menu__list > li._active .menu__arrow {
 		display: none;
 	}
 	.block__img-date {
-		width: 75%;
+		width: 95%;
 		right: 43%;
+		height: 60px;
 	}
 	.block__banner {
 	}
@@ -754,6 +854,26 @@ body._touch .menu__list > li._active .menu__arrow {
 		height: 100px;
 	}
 
+	.block__for-margin {
+		margin-bottom: 60px;
+	}
+	.flex__block {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.flex__block-width {
+		width: 100%;
+	}
+
+	.block__padding-left {
+		padding: 0 20px 0 0;
+	}
+
+	.block__padding-right {
+		padding: 0 0 0 20px;
+	}
+
 	.block__sponsors {
 		width: 60%;
 		margin: 0 auto;
@@ -782,7 +902,8 @@ body._touch .menu__list > li._active .menu__arrow {
 @media (max-width: 916px) {
 	.block__img-date {
 		width: 75%;
-		right: 50%;
+		right: 40%;
+		height: 50px;
 	}
 	.block__banner {
 		height: 300px;
@@ -919,11 +1040,23 @@ body._touch .menu__list > li._active .menu__arrow {
 		font-size: 20px;
 		color: #000;
 	}
+
+	.block__participation-fee {
+		display: block;
+	}
+
+	.block__participation {
+		max-width: 300px;
+		margin: 0px auto 40px auto;
+	}
+}
+@media (max-width: 679px) {
 }
 @media (max-width: 636px) {
 	.block__img-date {
 		width: 95%;
-		right: 60%;
+		right: 46%;
+		height: 40px;
 	}
 }
 @media (max-width: 554px) {
@@ -953,10 +1086,16 @@ body._touch .menu__list > li._active .menu__arrow {
 	.block_dir {
 		margin: 0 auto 15px auto;
 	}
+
+	.block__for-margin {
+		margin-bottom: 60px;
+	}
+
 	.flex__block {
 		flex-wrap: wrap;
 		justify-content: center;
 	}
+
 	.item__photo {
 		width: 100%;
 	}
@@ -964,6 +1103,10 @@ body._touch .menu__list > li._active .menu__arrow {
 	.button {
 		padding: 10px 50px;
 		font-size: 13px;
+	}
+
+	.item__content {
+		max-width: 260px;
 	}
 
 	.item__schedule {
@@ -1002,6 +1145,7 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 @media (max-width: 429px) {
 	.block__img-date {
+		top: 28px;
 	}
 }
 @media (max-width: 359px) {
