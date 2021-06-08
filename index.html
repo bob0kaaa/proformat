@@ -343,32 +343,31 @@
 							<form action="#" id="form" class="form__body">
 								<div class="form__item">
 									<label for="formName" class="form__label">Фамилия Имя*:</label>
-									<input id="formName" type="text" name="Фамилия Имя" class="form__input _req">
+									<input id="formName" type="text" name="name" class="form__input _req">
 								</div>
 								<div class="form__item">
 									<label for="formName" class="form__label">Компания*:</label>
-									<input id="formName" type="text" name="Компания" class="form__input _req">
+									<input id="formName" type="text" name="company" class="form__input _req">
 								</div>
 								<div class="form__item">
 									<label for="formEmail" class="form__label">E-mail*:</label>
-									<input id="formEmail" type="text" name="E-mail" class="form__input _req _email">
+									<input id="formEmail" type="text" name="email" class="form__input _req _email">
 								</div>
 								<div class="form__item">
 									<label for="formName" class="form__label">Телефон*:</label>
-									<input id="formName" type="tel" name="Телефон" class="form__input _req">
+									<input id="formName" type="tel" name="tel" class="form__input _req">
 								</div>
 								<div class="form__item">
-									<div class="form__label">Что тут написать?</div>
+									<div class="form__label">Вы заявляетесь как?</div>
 									<div class="options">
 										<div class="options__item">
-											<input id="formRightHanded" checked type="radio" value="Участник" name="Участвует как:"
+											<input id="formRightHanded" checked type="radio" value="Участник" name="hand"
 												class="options__input"
 												onclick="document.getElementById('form__item-package').style.display='none';">
 											<label for="formRightHanded" class="options__label"><span>Участник</span></label>
 										</div>
 										<div class="options__item">
-											<input id="formLeftHanded" type="radio" value="Спонсор" name="Участвует как:"
-												class="options__input"
+											<input id="formLeftHanded" type="radio" value="Спонсор" name="hand" class="options__input"
 												onclick="document.getElementById('form__item-package').style.display='block';">
 											<label for="formLeftHanded" class="options__label"><span>Спонсор</span></label>
 										</div>
@@ -376,15 +375,15 @@
 								</div>
 								<div class="form__item" id="form__item-package">
 									<div class="form__label">Категория пакета:</div>
-									<select name="Пакета:" class="form__select">
-										<option value="Золотой" selected>Золотой</option>
-										<option value="Серебряный">Серебряный</option>
-										<option value="Бронзовый"></option>
+									<select name="package" class="form__select">
+										<option value="Gold" selected>Золотой</option>
+										<option value="Silver">Серебряный</option>
+										<option value="Bronze">Бронзовый</option>
 									</select>
 								</div>
 								<div class="form__item">
 									<label for="formMessage" class="form__label">Комментарий:</label>
-									<textarea name="Комментарий" id="formMessage" class="form__input"></textarea>
+									<textarea name="message" id="formMessage" class="form__input"></textarea>
 								</div>
 
 								<div class="form__item-none">

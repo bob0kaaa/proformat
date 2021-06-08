@@ -987,6 +987,9 @@ body._touch .menu__list > li._active .menu__arrow {
 	.item__organizer:nth-child(-n + 4) {
 		margin-top: 40px;
 	}
+	.item__organizer:nth-child(-n + 5) {
+		margin-top: 40px;
+	}
 
 	.items__organizers {
 		flex-wrap: wrap;
@@ -1194,6 +1197,7 @@ body._touch .menu__list > li._active .menu__arrow {
 		top: 0;
 		left: 0;
 		height: 70px;
+
 		z-index: 2;
 	}
 
