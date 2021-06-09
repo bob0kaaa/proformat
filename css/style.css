@@ -139,7 +139,7 @@ body._lock {
 }
 .page__title {
 	font-size: 40px;
-	margin: 0px 0px 100px 0px;
+	margin: 0px 0px 50px 0px;
 }
 .page__text {
 	font-size: 16px;
@@ -351,7 +351,7 @@ body._lock {
 }
 
 .photo1 {
-	background-image: url(../img/Photo/106.JPG);
+	background-image: url(../img/Photo/DSC_2955090620021.jpg);
 }
 
 .photo2 {
@@ -361,13 +361,13 @@ body._lock {
 	background-image: url(../img/Photo/25.JPG);
 }
 .photo4 {
-	background-image: url(../img/Photo/28.JPG);
+	background-image: url(../img/Photo/PA24809209062021.JPG);
 }
 .photo5 {
 	background-image: url(../img/Photo/29.JPG);
 }
 .photo6 {
-	background-image: url(../img/Photo/33_1.jpg);
+	background-image: url(../img/Photo/PA24823909062021.JPG);
 }
 .photo7 {
 	background-image: url(../img/Photo/75.JPG);
@@ -560,6 +560,39 @@ body._lock {
 	background-image: url(../img/IMG_1798.jpg);
 }
 
+.block__cert {
+	display: flex;
+	justify-content: center;
+}
+
+.cert {
+	min-width: 400px;
+	max-width: 400px;
+	height: 300px;
+	position: relative;
+	background-image: url(../img/cert.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.cert::after {
+	content: "";
+	background-color: #000000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.7;
+	border-radius: 10px;
+	z-index: -1;
+}
+
+.block__map {
+	display: flex;
+	justify-content: center;
+}
 .menu__link {
 	color: #000;
 	font-size: 18px;
@@ -1313,7 +1346,7 @@ body._touch .menu__list > li._active .menu__arrow {
 	}
 	.page__title {
 		font-size: 30px;
-		margin: 0px 0px 60px 0px;
+		margin: 0px 0px 30px 0px;
 	}
 
 	.banner__title-content {

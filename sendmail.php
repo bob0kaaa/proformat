@@ -11,20 +11,27 @@
 	$mail->IsHTML(true);
 
 	//От кого письмо
-	$mail->setFrom('указать!', 'Фрилансер по жизни');
+	$mail->setFrom('Proformat@tu-ugmk.com', 'Заявка на участие в "ProFormat"');
 	//Кому отправить
-	$mail->addAddress('указать!');
+	$mail->addAddress('proformat.tu-ugmk@yandex.ru');
 	//Тема письма
-	$mail->Subject = 'Привет! Это "Фрилансер по жизни"';
+	$mail->Subject = 'Заявка на участие в "ProFormat"';
+
 
 	//Рука
-	$hand = "Правая";
-	if($_POST['hand'] == "left"){
-		$hand = "Левая";
+	
+	if($_POST['hand'] == "Спонсор"){
+		$hand = "Спонсор";
+		$age = $_POST['age'];
+	}
+	
+	if($_POST['hand'] == "Участник"){
+		$hand = "Участник";
+		$age = " ";
 	}
 
 	//Тело письма
-	$body = '<h1>Встречайте супер письмо!</h1>';
+	$body = '<h1>Заявка на участие в "ProFormat"</h1>';
 	
 	if(trim(!empty($_POST['name']))){
 		$body.='<p><strong>Имя:</strong> '.$_POST['name'].'</p>';
@@ -39,12 +46,11 @@
 		$body.='<p><strong>Телефон:</strong> '.$_POST['tel'].'</p>';
 	}
 	if(trim(!empty($_POST['hand']))){
-		$body.='<p><strong>Рука:</strong> '.$hand.'</p>';
+		$body.='<p><strong>Форма заявки:</strong> '.$hand.'</p>';
 	}
 	if(trim(!empty($_POST['age']))){
-		$body.='<p><strong>Возраст:</strong> '.$_POST['age'].'</p>';
+		$body.='<p><strong>Категория пакета:</strong> '.$age.'</p>';
 	}
-	
 	if(trim(!empty($_POST['message']))){
 		$body.='<p><strong>Комментарий:</strong> '.$_POST['message'].'</p>';
 	}
