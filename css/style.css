@@ -494,7 +494,7 @@ body._lock {
 .block__title-participation::after {
 	content: "";
 	display: inline-block;
-	width: 250px;
+	width: 200px;
 	height: 3px;
 	background-color: #ffd600;
 	display: block;
@@ -509,7 +509,7 @@ body._lock {
 .block__participation {
 	border: 1px solid #ffd600;
 	border-radius: 10px;
-	min-width: 300px;
+	min-width: 260px;
 	box-shadow: 0 0 20px rgb(255, 204, 0);
 	height: 400px;
 
@@ -1427,6 +1427,16 @@ body._touch .menu__list > li._active .menu__arrow {
 @media (max-width: 429px) {
 	.block__img-date {
 		top: 28px;
+	}
+
+	.cert {
+		min-width: 300px;
+		max-width: 400px;
+	}
+
+	.block__participation {
+		width: 100%;
+		margin: 0px auto 40px auto;
 	}
 }
 @media (max-width: 359px) {
